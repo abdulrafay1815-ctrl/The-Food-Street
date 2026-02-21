@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffcdd1;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-container {
+    display: flex;           /* Make it flex */
+    flex-wrap: wrap;         /* Allow items to drop to next line */
+    gap: 20px;               /* Space between items */
+    justify-content: center; /* Center items horizontally */
+}
+
+.menu-item {
+    flex: 0 0 250px;         /* flex-basis = 250px, no grow/shrink beyond basis */
+    height: 150px;
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+}
